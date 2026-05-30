@@ -6,7 +6,7 @@ Drop it in, extend one class, swap one interface — and your entities gain
 automatic soft-delete, audit fields, restore support, and hard-delete escape
 hatches without touching a single SQL file.
 
-[![Build](https://img.shields.io/github/actions/workflow/status/yourusername/soft-delete-spring-boot-starter/ci.yml?branch=main)](https://github.com/yourusername/soft-delete-spring-boot-starter/actions)
+[![Build](https://img.shields.io/github/actions/workflow/status/mkaizen/soft-delete-spring-boot-starter/ci.yml?branch=main)](https://github.com/yourusername/soft-delete-spring-boot-starter/actions)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.softdelete/soft-delete-spring-boot-starter)](https://central.sonatype.com/artifact/io.github.softdelete/soft-delete-spring-boot-starter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
