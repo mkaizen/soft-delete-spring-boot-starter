@@ -16,7 +16,7 @@
         Provides @SoftDeletable entities, audit fields (deletedAt / deletedBy),
         filtered repositories, and one-line restore support.
     </description>
-    <url>https://github.com/yourusername/soft-delete-spring-boot-starter</url>
+    <url>https://github.com/mkaizen/soft-delete-spring-boot-starter</url>
 
     <licenses>
         <license>
@@ -24,6 +24,34 @@
             <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
+<developers>
+  <developer>
+    <id>mkaizen</id>
+    <name>Matthew Bowman</name>
+    <email>matthew.bowman55@gmail.com</email>
+  </developer>
+</developers>
+
+<scm>
+  <url>https://github.com/mkaizen/soft-delete-spring-boot-starter</url>
+  <connection>scm:git:git://github.com/mkaizen/soft-delete-spring-boot-starter.git</connection>
+</scm>
+
+<build>
+  <plugins>
+    <!-- GPG signing -->
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-gpg-plugin</artifactId>
+      <version>3.1.0</version>
+      <executions>
+        <execution>
+          <id>sign-artifacts</id>
+          <phase>verify</phase>
+          <goals><goal>sign</goal></goals>
+        </execution>
+      </executions>
+    </plugin>
 
     <properties>
         <java.version>17</java.version>
