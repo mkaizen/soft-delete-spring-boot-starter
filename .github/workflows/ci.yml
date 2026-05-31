@@ -27,7 +27,7 @@ jobs:
           cache: maven
 
       - name: Build & run tests
-        run: mvn verify --batch-mode --no-transfer-progress
+        run: mvn verify --batch-mode --no-transfer-progress -Dgpg.skip=true
 
       - name: Upload test reports
         if: failure()
